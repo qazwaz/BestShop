@@ -190,3 +190,84 @@ a {
     top: 10%;
     left: 50%;
 }
+.benefits {
+    background-color: var(--color-light-grey);
+    padding: 105px 251px;
+}
+.benefits_notebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 91px 36px;
+    background-color: var(--color-white);
+}
+.benefits_be {
+    text-align: left;
+    font-size: 2rem;
+    font-family: var(--font-raleway);
+    color: var(--color-black);
+}
+.benefits_description {
+    text-align: left;
+    color: var(--color-black);
+}
+.benefits_border {
+    width: 327px;
+    height: 4px;
+    background-color: var(--color-redish);
+    margin-top: 50px;
+}
+.benefits_square {
+    background-color: var(--color-redish);
+    width: 180px;
+    height: 180px;
+    border-radius: 41px;
+    position: absolute;
+    right: 15%;
+    transform: rotate(45deg);
+}
+.macbook,
+.iphone {
+    width: 386px;
+    height: auto;
+    position: relative;
+}
+.benefits_phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    margin: 37px 0;
+}
+.benefits_phone div .benefits_border {
+    background-color: var(--color-primary);
+}
+.benefits_circle {
+    background-color: var(--color-primary);
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: absolute;
+}
+.benefits_trumpet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+}
+.benefits_trumpet div .benefits_border {
+    background-color: var(--color-green);
+}
+.benefits_background {
+    content: "";
+    display: block;
+    background-color: var(--color-green);
+    width: 440px;
+    height: 370px;
+}
+.trumpet {
+    width: 386px;
+    height: auto;
+    position: relative;
+    top: 40px;
+}
