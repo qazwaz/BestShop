@@ -271,3 +271,95 @@ a {
     position: relative;
     top: 40px;
 }
+
+.pricing_container h2 {
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-size: 2rem;
+    color: var(--color-black);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.pricing_boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pricing_box {
+    border: 1px solid var(--color-redish);
+    width: 370px;
+    height: 460px;
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 29px;
+}
+.pricing_type {
+    font-size: 20px;
+    font-family: var(--color-black);
+    color: #13253B;
+    font-weight: bold;
+    padding-top: 34px;
+}
+.pricing_price {
+    font-size: 46px;
+    color: var(--color-redish);
+    font-weight: 300;
+    padding-top: 14px;
+    padding-bottom: 59px;
+}
+.pricing_list {
+    font-size: 14px;
+    color: var(--color-black);
+    padding: 10px;
+}
+.pricing_list::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-image: url("../Icons/Ckechmark-1.svg");
+    display: inline-block;
+    margin-right: 13px;
+}
+.pricing_list_last::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-image: url("../Icons/Close.svg");
+    display: inline-block;
+    margin-right: 13px;
+}
+.btn_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+    left: 110px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-redish);
+    border-radius: 23px;
+    color: var(--color-white);
+    font-weight: bold;
+    margin-top: 55px;
+}
+.pricing_box_big {
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+.pricing_box_big .pricing_price {
+    color: var(--color-primary);
+}
+.pricing_box_big .btn_box {
+    background-color: var(--color-primary);
+}
+.pricing_box_last {
+    border: 1px solid var(--color-green);
+}
+.pricing_box_last .pricing_price {
+    color: var(--color-green);
+}
+.pricing_box_last .btn_box {
+    background-color: var(--color-green);
+}
