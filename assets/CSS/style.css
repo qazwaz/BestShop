@@ -397,13 +397,16 @@ a {
     justify-content: center;
     padding-top: 158px;
 }
+
 .contact_container {
     display: flex;
     justify-content: center;
 }
+
 .contact_left {
     width: 30%;
 }
+
 .contact_left h1 {
     font-size: 49px;
     text-align: left;
@@ -411,6 +414,7 @@ a {
     color: var(--color-black);
     padding: 22px 0;
 }
+
 .contact_left p {
     text-align: left;
     color: var(--color-black);
@@ -421,14 +425,17 @@ a {
     color: var(--color-grey);
     padding-right: 20px;
 }
+
 .contact_left img {
     margin-right: 10px;
 }
+
 .contact_right {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
+
 .name,
 .email {
     text-transform: uppercase;
@@ -439,18 +446,22 @@ a {
     letter-spacing: 3.28px;
     padding-bottom: 42px;
 }
+
 .text {
     border: none;
 }
+
 .email {
     border-top: 1px solid #95989A;
     padding: 42px 0;
 }
+
 .checkbox {
     border-top: 1px solid #95989A;
     padding-top: 30px;
     color: var(--color-grey);
 }
+
 .checkbox input {
     position: absolute;
     opacity: 0;
@@ -458,6 +469,7 @@ a {
     height: 0;
     width: 0;
 }
+
 .checkbox {
     cursor: pointer;
     display: flex;
@@ -473,6 +485,7 @@ a {
     margin-right: 15px;
     border-radius: 5px;
 }
+
 .checkbox input:checked + span {
     background-image: url("../Icons/Checkmark.svg");
     background-repeat: no-repeat;
@@ -486,10 +499,12 @@ a {
     box-shadow: 0 -5px 40px #00000029;
     padding-top: 26px;
 }
+
 .footer_container {
     display: flex;
     justify-content: space-between;
 }
+
 .footer_container p {
     font-size: 11px;
     color: var(--color-grey);
@@ -497,6 +512,7 @@ a {
     margin-left: 136px;
     padding-top: 6px;
 }
+
 .btn_send {
     width: 226px;
     height: 57px;
@@ -512,6 +528,7 @@ a {
     left: 45%;
     margin-bottom: 59px;
 }
+
 .footer_forms a {
     padding: 10px;
 }
